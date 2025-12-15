@@ -2,7 +2,7 @@
 
 export default function Header() {
   return (
-    <div data-theme="black" className="navbar bg-base-100 shadow-sm">
+    <div data-theme="black" className="navbar  transition-all duration-300 bg-background/95 backdrop-blur-sm border-b border-borde shadow-sm sticky top-0 left-0 w-full z-50   border-white/10">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -10,11 +10,11 @@ export default function Header() {
           </div>
           <ul
             tabIndex={-1}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+            className="menu menu-sm dropdown-content bg-inherit rounded-box z-1 mt-3 w-52 p-2 shadow">
             <li><a>About</a></li>
             <li>
               <a>Content</a>
-              <ul className="p-2">
+              <ul className="p-2 ">
                 <li><a>Projects</a></li>
                 <li><a>Demos</a></li>
               </ul>
@@ -29,7 +29,7 @@ export default function Header() {
           <li>
             <details>
               <summary>Content</summary>
-              <ul className="p-2 bg-base-100 w-40 z-1">
+              <ul className="p-2 bg-inherit w-40 z-1">
                 <li><a>Projects</a></li>
                 <li><a>Demos</a></li>
               </ul>
