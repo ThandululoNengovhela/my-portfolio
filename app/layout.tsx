@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Thandululo Nengovhela - Full Stack Developer",
   description:
-    "Full Stack Developer specializing in React, Next.js, React Native, and PHP",
+    "Full Stack Developer specializing in React, Next.js, React + Vite,",
 };
 
 export default function RootLayout({
