@@ -22,24 +22,24 @@ export default function Header() {
             <li><a>Contact</a></li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-base font-bold ">Thandululo Nengovhela</a>    </div>
+        <a className="btn btn-ghost text-base font-bold cursor-none">Thandululo Nengovhela</a>    </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li><a>About</a></li>
+          <li><a className="cursor-none">About</a></li>
           <li>
             <details>
-              <summary>Content</summary>
+              <summary className="cursor-none">Content</summary>
               <ul className="p-2 bg-inherit w-40 z-1">
-                <li><a>Projects</a></li>
-                <li><a>Demos</a></li>
+                <li><a className="cursor-none">Projects</a></li>
+                <li><a className="cursor-none">Demos</a></li>
               </ul>
             </details>
           </li>
-          <li><a>Contact</a></li>
+          <li><a className="cursor-none">Contact</a></li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-sm rounded-xl">Let&apos;s Talk</a>
+        <a className="btn btn-sm rounded-xl cursor-none">Let&apos;s Talk</a>
       </div>
     </div>
     

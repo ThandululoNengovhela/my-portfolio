@@ -126,7 +126,7 @@ export default function Profile() {
               </div>
             </div>
 
-            <span className="btn btn-dash text-indigo-500 btn-xs rounded-xl animate-fade-up">
+            <span className="btn btn-dash text-indigo-500 btn-xs rounded-xl cursor-none animate-fade-up">
               Available for work
             </span>
 
@@ -151,12 +151,12 @@ export default function Profile() {
 
           {/* RIGHT COLUMN */}
           <div className="flex-1 w-full max-w-xl animate-right">
-            <div className="rounded-xl  border w-full border-border  bg-card/30 p-4 animate-pulse  animate-fade-up bg-[radial-gradient(circle_at_bottom_left,#ffffff04_35%,transparent_36%),radial-gradient(circle_at_top_right,#ffffff04_35%,transparent_36%)] bg-size-[4.95em_4.95em]">
+            <div className="rounded-xl cursor-none border w-full border-border  bg-card/30 p-4 animate-pulse  animate-fade-up bg-[radial-gradient(circle_at_bottom_left,#ffffff04_35%,transparent_36%),radial-gradient(circle_at_top_right,#ffffff04_35%,transparent_36%)] bg-size-[4.95em_4.95em]">
               <a
                 href="https://github.com/ThandululoNengovhela"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-bold block"
+                className="font-bold block cursor-none"
               >
                 @Thandululo-N
                 <span className="ml-2 font-light font-mono text-neutral-500 text-sm">
@@ -189,7 +189,7 @@ export default function Profile() {
               </div>
             </div>
 
-            <a href="#" className="hover-3d rounded-xl border-indigo-600  flex-1 w-full max-w-xl  mt-6 animate-fade-up border border-border">
+            <a href="#" className="hover-3d cursor-none rounded-xl border-indigo-600  flex-1 w-full max-w-xl  mt-6 animate-fade-up border border-border">
               {/* content */}
               <div className="card rounded-xl border-white bg-black text-white bg-[radial-gradient(circle_at_bottom_left,#ffffff04_35%,transparent_36%),radial-gradient(circle_at_top_right,#ffffff04_35%,transparent_36%)] bg-size-[4.95em_4.95em]">
                 <div className="card-body">
