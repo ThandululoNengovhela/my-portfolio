@@ -22,7 +22,10 @@ export default function Profile() {
   }, []);
 
   return (
-    <div data-theme="black" className="min-h-screen bg-[radial-gradient(circle_at_top_left,#ffffff08_30%,transparent_31%),radial-gradient(circle_at_bottom_right,#ffffff08_30%,transparent_31%)] bg-size-[6em_6em]">
+    <div
+      data-theme="black"
+      className="min-h-screen bg-[radial-gradient(circle_at_top_left,#ffffff08_30%,transparent_31%),radial-gradient(circle_at_bottom_right,#ffffff08_30%,transparent_31%)] bg-size-[6em_6em]"
+    >
       {/* Neon cursor */}
       <style jsx global>{`
         body {
@@ -44,7 +47,7 @@ export default function Profile() {
           transition: transform 0.05s linear;
         }
 
-         @keyframes fadeUp {
+        @keyframes fadeUp {
           from {
             opacity: 0;
             transform: translateY(30px);
@@ -112,7 +115,6 @@ export default function Profile() {
           animation: typing 2.2s steps(12, end) forwards,
             blink 0.8s step-end infinite;
         }
-
       `}</style>
 
       {/* Main content */}
@@ -130,7 +132,9 @@ export default function Profile() {
               Available for work
             </span>
 
-            <p className="text-neutral-400 mt-2 animate-fade-up">Based in South Africa</p>
+            <p className="text-neutral-400 mt-2 animate-fade-up">
+              Based in South Africa
+            </p>
 
             <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-heading font-bold leading-tight animate-fade-up ">
               Hi, I&apos;m Thandululo
@@ -146,6 +150,16 @@ export default function Profile() {
 
             <span className="mt-6 max-w-xl mx-auto md:mx-0 text-sm md:text-base text-muted-foreground leading-relaxed font-medium">
               <Stats />
+            </span>
+
+            <span className="max-w-xs text-sm  gap-10 ">
+              <ul>
+                <li className=" btn btn-sm border-solid px-4 py-2 bg-blue-600 text-white rounded-xl ">React.Js</li>
+                <li className=" btn btn-sm border-solid px-4 py-2 bg-blue-600 text-white rounded-xl ">Next.Js</li>
+                <li className=" btn btn-sm border-solid px-4 py-2 bg-blue-600 text-white rounded-xl ">Figma</li>
+                <li className=" btn btn-sm border-solid px-4 py-2 bg-blue-600 text-white rounded-xl ">JAVA</li>
+                <li className=" btn btn-sm border-solid px-4 py-2 bg-blue-600 text-white rounded-xl ">Firebase</li>
+              </ul>
             </span>
           </div>
 
@@ -189,7 +203,10 @@ export default function Profile() {
               </div>
             </div>
 
-            <a href="#" className="hover-3d cursor-none rounded-xl border-indigo-600  flex-1 w-full max-w-xl  mt-6 animate-fade-up border border-border">
+            <a
+              href="#"
+              className="hover-3d cursor-none rounded-xl border-indigo-600  flex-1 w-full max-w-xl  mt-6 animate-fade-up border border-border"
+            >
               {/* content */}
               <div className="card rounded-xl border-white bg-black text-white bg-[radial-gradient(circle_at_bottom_left,#ffffff04_35%,transparent_36%),radial-gradient(circle_at_top_right,#ffffff04_35%,transparent_36%)] bg-size-[4.95em_4.95em]">
                 <div className="card-body">
@@ -202,7 +219,9 @@ export default function Profile() {
                   </div>
                   <div className="flex justify-between">
                     <div>
-                      <div className="text-xs opacity-20">CERTIFICATE HOLDER</div>
+                      <div className="text-xs opacity-20">
+                        CERTIFICATE HOLDER
+                      </div>
                       <div>NENGOVHELA T.</div>
                     </div>
                     <div>
@@ -223,7 +242,6 @@ export default function Profile() {
               <div></div>
               <div></div>
             </a>
-
           </div>
         </div>
       </div>
