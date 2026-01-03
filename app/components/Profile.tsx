@@ -152,15 +152,19 @@ export default function Profile() {
               <Stats />
             </span>
 
-            <span className="max-w-xs text-sm  gap-10 ">
+            <span className="max-w-xs text-sm  md:gap-4 lg:gap-6 grid-cols-5 ">
               <ul>
-                <li className=" btn btn-sm border-solid px-4 py-2 bg-blue-600 text-white rounded-xl ">React.Js</li>
-                <li className=" btn btn-sm border-solid px-4 py-2 bg-blue-600 text-white rounded-xl ">Next.Js</li>
-                <li className=" btn btn-sm border-solid px-4 py-2 bg-blue-600 text-white rounded-xl ">Figma</li>
-                <li className=" btn btn-sm border-solid px-4 py-2 bg-blue-600 text-white rounded-xl ">JAVA</li>
-                <li className=" btn btn-sm border-solid px-4 py-2 bg-blue-600 text-white rounded-xl ">Firebase</li>
+                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">React.Js</li>
+                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">Next.Js</li>
+                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">Figma</li>
+                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">JAVA</li>
+                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 ">Firebase</li>
               </ul>
             </span>
+
+
+            
+
           </div>
 
           {/* RIGHT COLUMN */}
@@ -208,8 +212,8 @@ export default function Profile() {
               className="hover-3d cursor-none rounded-xl border-indigo-600  flex-1 w-full max-w-xl  mt-6 animate-fade-up border border-border"
             >
               {/* content */}
-              <div className="card rounded-xl border-white bg-black text-white bg-[radial-gradient(circle_at_bottom_left,#ffffff04_35%,transparent_36%),radial-gradient(circle_at_top_right,#ffffff04_35%,transparent_36%)] bg-size-[4.95em_4.95em]">
-                <div className="card-body">
+              <div className="card rounded-xl  border-white bg-black text-white bg-[radial-gradient(circle_at_bottom_left,#ffffff04_35%,transparent_36%),radial-gradient(circle_at_top_right,#ffffff04_35%,transparent_36%)] bg-size-[4.95em_4.95em]">
+                <div className="card-body ">
                   <div className="flex justify-between mb-10">
                     <div className="font-bold">QUALIFIED DEVELOPER</div>
                     <div className="text-5xl opacity-10">❁</div>
