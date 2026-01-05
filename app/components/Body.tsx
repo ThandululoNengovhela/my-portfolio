@@ -175,7 +175,51 @@ const Body = () => {
           </div>
 
           {/* RIGHT COLUMN */}
-          <div className="flex-1 w-full max-w-xl animate-right"></div>
+          <div className="flex-1 w-full max-w-xl animate-right">
+
+            <div className="hover-3d cursor-none rounded-xl border-none  flex-1 w-full max-w-xl  mt-6 animate-fade-up border border-border">
+              <div className="card rounded-xl">
+                <figure className=" rounded-xl ">
+                  <img
+                    src="https://cdn.dribbble.com/userupload/9602981/file/original-e6f9ef9e2c570d0d612b1775155a4d63.png"
+                    alt="Next.Js" />
+
+                  
+
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title">
+                    Next.Js Project
+                    <div className="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>I use Next.js to build fast, SEO-focused web applications using server-side rendering, static generation, and API routes.</p>
+                  <div className="card-actions justify-end">
+                    <div className="badge badge-outline rounded-xl">Top Skill</div>
+                    <div className="badge badge-outline rounded-xl">Library</div>
+                  </div>
+                </div>
+              </div>
+
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+
+
+            </div>
+
+
+          </div>
+
+
+
+
+
+
         </div>
       </div>
     </div>
