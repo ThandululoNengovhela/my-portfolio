@@ -4,7 +4,7 @@ import React, { use } from "react";
 
 const Body = () => {
   return (
-    <div
+    <section id="body"
       data-theme="black"
       className="min-h-screen bg-[radial-gradient(circle_at_top_left,#ffffff08_30%,transparent_31%),radial-gradient(circle_at_bottom_right,#ffffff08_30%,transparent_31%)] bg-size-[6em_6em]"
     >
@@ -222,7 +222,7 @@ const Body = () => {
 
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

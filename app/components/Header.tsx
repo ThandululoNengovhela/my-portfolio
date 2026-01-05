@@ -11,7 +11,7 @@ export default function Header() {
           <ul
             tabIndex={-1}
             className="menu menu-sm dropdown-content bg-inherit rounded-box z-1 mt-3 w-52 p-2 shadow">
-            <li><a>About</a></li>
+            <li><a href="#body">About</a></li>
             <li>
               <a>Content</a>
               <ul className="p-2 ">
@@ -22,10 +22,10 @@ export default function Header() {
             <li><a>Contact</a></li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-base font-bold cursor-none">Thandululo Nengovhela</a>    </div>
+        <a href="#profile" className="btn btn-ghost text-base font-bold cursor-none">Thandululo Nengovhela</a>    </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li><a className="cursor-none">About</a></li>
+          <li><a href="#body" className="cursor-none">About</a></li>
           <li>
             <details>
               <summary className="cursor-none">Content</summary>

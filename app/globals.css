@@ -4,3 +4,15 @@
 @plugin "daisyui" {
   themes: all;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+#body {
+  scroll-margin-top: 80px;
+}
+
+#profile {
+  scroll-margin-top: 80px;
+}

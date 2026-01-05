@@ -22,7 +22,7 @@ export default function Profile() {
   }, []);
 
   return (
-    <div
+    <section id="profile"
       data-theme="black"
       className="min-h-screen bg-[radial-gradient(circle_at_top_left,#ffffff08_30%,transparent_31%),radial-gradient(circle_at_bottom_right,#ffffff08_30%,transparent_31%)] bg-size-[6em_6em]"
     >
@@ -214,7 +214,6 @@ export default function Profile() {
             </div>
 
             <a
-              href="#"
               className="hover-3d cursor-none rounded-xl border-indigo-600  flex-1 w-full max-w-xl  mt-6 animate-fade-up border border-border"
             >
               {/* content */}
@@ -255,6 +254,6 @@ export default function Profile() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
