@@ -154,17 +154,23 @@ export default function Profile() {
 
             <span className="max-w-xs text-sm  md:gap-4 lg:gap-6 grid-cols-5 ">
               <ul>
-                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">React.Js</li>
-                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">Next.Js</li>
-                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">Figma</li>
-                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">JAVA</li>
-                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 ">Firebase</li>
+                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                  React.Js
+                </li>
+                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                  Next.Js
+                </li>
+                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                  Figma
+                </li>
+                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                  JAVA
+                </li>
+                <li className=" btn btn-sm border-b-indigo-500 cursor-none mr-1 text-white rounded-xl mt-6 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 ">
+                  Firebase
+                </li>
               </ul>
             </span>
-
-
-            
-
           </div>
 
           {/* RIGHT COLUMN */}
