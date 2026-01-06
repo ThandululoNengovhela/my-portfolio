@@ -137,12 +137,13 @@ export default function Profile() {
 
               {/* Right-side vertical stack */}
               <div className="flex flex-col items-center ml-6 ">
-                <span className="btn btn-dash btn-xs text-indigo-500 rounded-xl rotate-[0] mb-2 cursor-default ">
+                <span className="btn btn-dash btn-sm text-indigo-500 rounded-full rotate-[0] mb-2 cursor-none ">
                   Available for work
                 </span>
 
                 <p className="text-neutral-400 text-sm ">
-                  Based in South Africa
+                  <span className="text-green-400 animate-pulse ">●</span> Based in South Africa 
+
                 </p>
               </div>
             </div>
