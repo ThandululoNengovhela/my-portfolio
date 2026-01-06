@@ -122,9 +122,9 @@ export default function Profile() {
         <div className="flex flex-col md:flex-row items-center md:items-start gap-14">
           {/* LEFT COLUMN */}
           <div className="flex-1 text-center md:text-left animate-left">
-            <div className="avatar flex justify-center md:justify-start mb-6 animate-fade-up">
+            <div className="avatar flex justify-center md:justify-start mb-6  animate-fade-up">
               <div className="ring-primary ring-offset-indigo-500 w-24 rounded-full ring-2 ring-offset-2">
-                <img src="https://img.daisyui.com/images/profile/demo/spiderperson@192.webp" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/my-univen-project.firebasestorage.app/o/gemini-2.5-flash-image_make_me_look_profetional_for_a_portfolio_profile_picture_and_make_the_suit_black-0.jpg?alt=media&token=7a85f9f2-d8cc-47f1-be49-7684677b2522" />
               </div>
             </div>
 
