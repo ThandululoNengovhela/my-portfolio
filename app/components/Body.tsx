@@ -143,7 +143,7 @@ const Body = () => {
               <div className="mt-8 space-y-4">
                 <h3 className="text-xl font-bold text-indigo-600">Experience</h3>
                 <div className="flex gap-4 text-sm">
-                  <div className="w-2 h-2 rounded-full bg-green-500 text-red mt-2 shrink-0"></div>
+                  <div className="w-2 h-2 rounded-full bg-green-500 text-red mt-2 shrink-0 animate-pulse"></div>
                   <div>
                     <p className="font-medium text-white">Web Developer</p>
                     <p className="text-muted-foreground">
@@ -152,7 +152,7 @@ const Body = () => {
                   </div>
                 </div>
                 <div className="flex gap-4 text-sm">
-                  <div className="w-2 h-2 rounded-full bg-green-500 text-red mt-2 shrink-0"></div>
+                  <div className="w-2 h-2 rounded-full bg-green-500 text-red mt-2 shrink-0 animate-pulse"></div>
                   <div>
                     <p className="font-medium text-white">Full Stack Developer</p>
                     <p className="text-muted-foreground">
@@ -161,7 +161,7 @@ const Body = () => {
                   </div>
                 </div>
                 <div className="flex gap-4 text-sm">
-                  <div className="w-2 h-2 rounded-full bg-green-500 text-red mt-2 shrink-0"></div>
+                  <div className="w-2 h-2 rounded-full bg-green-500 text-red mt-2 shrink-0 animate-pulse"></div>
                   <div>
                     <p className="font-medium text-white">Freelance Developer</p>
                     <p className="text-muted-foreground">
