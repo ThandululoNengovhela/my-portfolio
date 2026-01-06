@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import Image from "next/image";
 import Stats from "./Stats";
 
 export default function Profile() {
@@ -22,7 +23,8 @@ export default function Profile() {
   }, []);
 
   return (
-    <section id="profile"
+    <section
+      id="profile"
       data-theme="black"
       className="min-h-screen bg-[radial-gradient(circle_at_top_left,#ffffff08_30%,transparent_31%),radial-gradient(circle_at_bottom_right,#ffffff08_30%,transparent_31%)] bg-size-[6em_6em]"
     >
@@ -122,19 +124,28 @@ export default function Profile() {
         <div className="flex flex-col md:flex-row items-center md:items-start gap-14">
           {/* LEFT COLUMN */}
           <div className="flex-1 text-center md:text-left animate-left">
-            <div className="avatar flex justify-center md:justify-start mb-6  animate-fade-up">
-              <div className="ring-primary ring-offset-indigo-500 w-24 rounded-full ring-2 ring-offset-2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/my-univen-project.firebasestorage.app/o/gemini-2.5-flash-image_make_me_look_profetional_for_a_portfolio_profile_picture_and_make_the_suit_black-0.jpg?alt=media&token=7a85f9f2-d8cc-47f1-be49-7684677b2522" />
+            <div className="avatar flex justify-center md:justify-start mb-6 animate-fade-up relative">
+              <div className="ring-primary ring-offset-indigo-500 rounded-full ring-2 w-35 ring-offset-2">
+                <Image
+                  src="https://firebasestorage.googleapis.com/v0/b/my-univen-project.firebasestorage.app/o/gemini-2.5-flash-image_make_me_look_profetional_for_a_portfolio_profile_picture_and_make_the_suit_black-0.jpg?alt=media&token=7a85f9f2-d8cc-47f1-be49-7684677b2522"
+                  alt="Thandululo Nengovhela profile picture"
+                  width={140}
+                  height={140}
+                  className="rounded-full"
+                />
+              </div>
+
+              {/* Right-side vertical stack */}
+              <div className="flex flex-col items-center ml-6 ">
+                <span className="btn btn-dash btn-xs text-indigo-500 rounded-xl rotate-[0] mb-2 cursor-default ">
+                  Available for work
+                </span>
+
+                <p className="text-neutral-400 text-sm ">
+                  Based in South Africa
+                </p>
               </div>
             </div>
-
-            <span className="btn btn-dash text-indigo-500 btn-xs rounded-xl cursor-none animate-fade-up">
-              Available for work
-            </span>
-
-            <p className="text-neutral-400 mt-2 animate-fade-up">
-              Based in South Africa
-            </p>
 
             <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-heading font-bold leading-tight animate-fade-up ">
               Hi, I&apos;m Thandululo
@@ -213,9 +224,7 @@ export default function Profile() {
               </div>
             </div>
 
-            <a
-              className="hover-3d cursor-none rounded-xl border-indigo-600  flex-1 w-full max-w-xl  mt-6 animate-fade-up border border-border"
-            >
+            <a className="hover-3d cursor-none rounded-xl border-indigo-600  flex-1 w-full max-w-xl  mt-6 animate-fade-up border border-border">
               {/* content */}
               <div className="card rounded-xl  border-white bg-black text-white bg-[radial-gradient(circle_at_bottom_left,#ffffff04_35%,transparent_36%),radial-gradient(circle_at_top_right,#ffffff04_35%,transparent_36%)] bg-size-[4.95em_4.95em]">
                 <div className="card-body ">
