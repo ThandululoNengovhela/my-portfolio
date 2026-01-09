@@ -35,7 +35,7 @@ export default function Header() {
               </ul>
             </details>
           </li>
-          <li><a className="cursor-none">Contact</a></li>
+          <li><a href="#contact" className="cursor-none">Contact</a></li>
         </ul>
       </div>
       <div className="navbar-end">

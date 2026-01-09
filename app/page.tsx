@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/Header'
 import Profile from './components/Profile'
 import Body from './components/Body'
+import Contact from './components/Contact'
 
 const page = () => {
 return (
@@ -9,6 +10,7 @@ return (
   <Header/>
   <Profile/>
   <Body/>
+  <Contact/>
   </>
 )
 }
