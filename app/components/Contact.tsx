@@ -41,7 +41,15 @@ const Contact = () => {
                   <p className="text-white font-medium">+27 66 550 9434</p>
                 </div>
               </div>
-              <div className="flex items-center gap-4 p-8 rounded-xl border border-border border-gray-800 bg-card/50 w-100"></div>
+
+              <div className="flex items-center gap-4 p-4 rounded-xl border border-border border-gray-800 bg-card/50 w-100">
+                {" "}
+                <i className="fa-solid fa-location-dot text-xl text-indigo-500"></i>{" "}
+                <div>
+                  <p className=" text-gray-500 text-xs ">Location</p>
+                  <p className="text-white font-medium">Available worldwide</p>
+                </div>
+              </div>
             </div>
           </div>
 
