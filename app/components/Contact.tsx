@@ -21,16 +21,19 @@ const Contact = () => {
           {/*left section*/}
 
           <div className="flex-1 text-center md:text-left animate-left ">
-            <div className="lg:col-span-2 space-y-4">
-
+            <div className="lg:col-span-2 space-y-4 ">
               <div className="flex items-center gap-4 p-4 rounded-xl border border-border border-gray-800 bg-card/50 w-100">
                 {" "}
                 <i className="fa-solid fa-envelope text-xl text-indigo-500"></i>{" "}
-                <div>
+                <div className="">
                   <p className=" text-gray-500 text-xs ">Email</p>
-                  <p className="text-white font-medium">thandululo99@gmail.com</p>
+                  <a
+                    className="text-white font-medium cursor-none"
+                    href="mailto:thandululo99@gmail.com"
+                  >
+                    thandululo99@gmail.com
+                  </a>
                 </div>
-
               </div>
 
               <div className="flex items-center gap-4 p-4 rounded-xl border border-border border-gray-800 bg-card/50 w-100">
@@ -38,7 +41,12 @@ const Contact = () => {
                 <i className="fa-solid fa-phone text-xl text-indigo-500"></i>{" "}
                 <div>
                   <p className=" text-gray-500 text-xs ">Phone</p>
-                  <p className="text-white font-medium">+27 66 550 9434</p>
+                  <a
+                    className="text-white font-medium cursor-none"
+                    href="tel:+27665509434"
+                  >
+                    +27 66 550 9434
+                  </a>
                 </div>
               </div>
 
@@ -55,10 +63,68 @@ const Contact = () => {
 
           {/*right section*/}
           <div className="flex-1 w-full max-w-xl animate-right">
-            <form
-              action=""
-              className="space-y-4 p-5 sm:p-6 rounded-xl border border-border bg-card/50"
-            ></form>
+            <section className="w-full flex justify-center px-4   bg-black">
+              <div className="w-full max-w-2xl rounded-2xl border border-white/10 bg-gradient-to-b from-white/5 to-transparent p-6 md:p-4 shadow-xl backdrop-blur">
+                {/* Grid for Name & Email */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label className="block text-sm font-medium text-white mb-2">
+                      Name
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Your name"
+                      className="w-full rounded-xl bg-black/60 border border-white/10 px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-white/20"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-white mb-2">
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      placeholder="you@example.com"
+                      className="w-full rounded-xl bg-black/60 border border-white/10 px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-white/20"
+                    />
+                  </div>
+                </div>
+
+                {/* WhatsApp */}
+                <div className="mt-6">
+                  <label className="block text-sm font-medium text-white mb-2">
+                    WhatsApp Number{" "}
+                    <span className="text-white/40">(optional)</span>
+                  </label>
+                  <input
+                    type="tel"
+                    placeholder="+27 81 234 5678"
+                    className="w-full rounded-xl bg-black/60 border border-white/10 px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-white/20"
+                  />
+                </div>
+
+                {/* Message */}
+                <div className="mt-6">
+                  <label className="block text-sm font-medium text-white mb-2">
+                    Message
+                  </label>
+                  <textarea
+                    rows={4}
+                    placeholder="Tell me about your project..."
+                    className="w-full resize-none rounded-xl bg-black/60 border border-white/10 px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-white/20"
+                  />
+                </div>
+
+                {/* Button */}
+                <button
+                  type="submit"
+                  className="mt-8 w-full flex items-center justify-center gap-2 rounded-xl bg-white px-6 py-3 text-sm font-semibold text-black transition hover:bg-white/90"
+                >
+                  Send Message
+                  <i className="fa-solid fa-paper-plane"></i>
+                </button>
+              </div>
+            </section>
           </div>
         </div>
       </div>
