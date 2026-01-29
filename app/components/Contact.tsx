@@ -63,8 +63,8 @@ const Contact = () => {
 
           {/*right section*/}
           <div className="flex-1 w-full max-w-xl animate-right">
-            <section className="w-full flex justify-center px-4   bg-black">
-              <div className="w-full max-w-2xl rounded-2xl border border-white/10 bg-gradient-to-b from-white/5 to-transparent p-6 md:p-4 shadow-xl backdrop-blur">
+            <section className="w-full flex justify-center px-4">
+              <div className="w-full max-w-2xl rounded-2xl border border-white/10  from-white/5 to-transparent p-6 md:p-4 shadow-xl ">
                 {/* Grid for Name & Email */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
