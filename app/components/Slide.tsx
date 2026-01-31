@@ -24,6 +24,8 @@ const techStack = [
   'Yii2',
   'CodeIgniter',
   'React Native',
+    'Figma',
+    'daisyUI',
 ]
 
 
@@ -65,7 +67,7 @@ const Slide = () => {
           }
         `}</style>
 
-        <div className="relative overflow-hidden">
+        <div className="">
           <div
             className={`flex w-max gap-4 ${animation}`}
           >
@@ -87,7 +89,7 @@ const Slide = () => {
 
     return (
     <section className="relative overflow-hidden py-20">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(120,0,255,0.15),transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,#ffffff08_30%,transparent_31%),radial-gradient(circle_at_bottom_right,#ffffff08_30%,transparent_31%)] bg-size-[6em_6em]" />
 
       <div className="relative z-10 mx-auto max-w-7xl text-center">
         <p className="mb-2 text-sm text-indigo-500 font-medium">Technologies</p>
