@@ -10,16 +10,16 @@ export default function Header() {
           </div>
           <ul
             tabIndex={-1}
-            className="menu menu-sm dropdown-content bg-inherit rounded-box z-1 mt-3 w-52 p-2 shadow">
+            className="menu menu-sm dropdown-content bg-black rounded-box z-1 mt-3 w-30 p-2 shadow rounded-xl border border-white/10">
             <li><a href="#body">About</a></li>
             <li>
-              <a>Content</a>
+              <a></a>
               <ul className="p-2 ">
                 <li><a>Projects</a></li>
                 <li><a>Demos</a></li>
               </ul>
             </li>
-            <li><a>Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <a href="#profile" className="btn btn-ghost text-base font-bold cursor-none">Thandululo Nengovhela</a>    </div>
@@ -29,9 +29,9 @@ export default function Header() {
           <li>
             <details>
               <summary className="cursor-none">Content</summary>
-              <ul className="p-2 bg-inherit w-40 z-1">
-                <li><a className="cursor-none">Projects</a></li>
-                <li><a className="cursor-none">Demos</a></li>
+              <ul className="p-2 bg-black rounded-xl border border-white/10 w-40 z-1">
+                <li><a className="cursor-none rounded-xl">Projects</a></li>
+                <li><a className="cursor-none rounded-xl">Demos</a></li>
               </ul>
             </details>
           </li>
