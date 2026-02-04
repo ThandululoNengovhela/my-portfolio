@@ -21,6 +21,54 @@ html {
 #contact {
   scroll-margin-top: 10px;
   scroll-padding-top: 80px;
-  
 }
 
+.name {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #4F46E5;
+}
+
+.name:hover {
+  color: #4F46E5;
+  transition: color 0.3s ease;
+  animation: gradientShift 3s ease-in-out infinite, spin 2s linear infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background: linear-gradient(45deg, #4F46E5, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    background: linear-gradient(135deg, #EC4899, #F59E0B, #4F46E5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transform: scale(1.05) rotate(2deg);
+  }
+  100% {
+    background: linear-gradient(45deg, #4F46E5, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fill-current {
+  fill: currentColor;
+}
