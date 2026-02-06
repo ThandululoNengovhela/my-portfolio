@@ -22,7 +22,7 @@ const Contact = () => {
 
           <div className="flex-1 text-center md:text-left animate-left ">
             <div className="lg:col-span-2 space-y-4 ">
-              <div className="flex items-center gap-4 p-4 rounded-xl border border-border border-gray-800 bg-card/50 w-100">
+              <div className="flex items-center gap-4 p-4 rounded-xl border border-border border-gray-800 bg-card/50 w-95">
                 {" "}
                 <i className="fa-solid fa-envelope text-xl text-indigo-500"></i>{" "}
                 <div className="">
@@ -36,7 +36,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 p-4 rounded-xl border border-border border-gray-800 bg-card/50 w-100">
+              <div className="flex items-center gap-4 p-4 rounded-xl border border-border border-gray-800 bg-card/50 w-95">
                 {" "}
                 <i className="fa-solid fa-phone text-xl text-indigo-500"></i>{" "}
                 <div>
@@ -50,7 +50,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 p-4 rounded-xl border border-border border-gray-800 bg-card/50 w-100">
+              <div className="flex items-center gap-4 p-4 rounded-xl border border-border border-gray-800 bg-card/50 w-95">
                 {" "}
                 <i className="fa-solid fa-location-dot text-xl text-indigo-500"></i>{" "}
                 <div>
