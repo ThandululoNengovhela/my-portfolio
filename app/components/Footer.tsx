@@ -3,7 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <section id="Footer">
-      <footer className="footer sm:footer-horizontal  border-t-indigo-600 border border-black text-neutral-content p-10  bg-[radial-gradient(circle_at_top_left,#ffffff08_30%,transparent_31%),radial-gradient(circle_at_bottom_right,#ffffff08_30%,transparent_31%)] bg-size-[6em_6em]">
+      <footer className="footer sm:footer-horizontal gap-4 border-t-indigo-600 border border-black text-neutral-content p-10  bg-[radial-gradient(circle_at_top_left,#ffffff08_30%,transparent_31%),radial-gradient(circle_at_bottom_right,#ffffff08_30%,transparent_31%)] bg-size-[6em_6em]">
+        
         <aside className="">
           <svg
             width="50"
@@ -64,7 +65,7 @@ const Footer = () => {
 
         <ul className="menu menu-horizontal bg-inherit rounded-box mt-6 ">
           <li>
-            <a className="tooltip rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" data-tip="Home">
+            <a className="tooltip rounded-xl cursor-none transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" data-tip="Home">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -82,7 +83,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a className="tooltip rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" data-tip="Details">
+            <a className="tooltip rounded-xl cursor-none transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" data-tip="Details">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -100,7 +101,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a className="tooltip rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" data-tip="Stats">
+            <a className="tooltip rounded-xl cursor-none transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" data-tip="Stats">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
