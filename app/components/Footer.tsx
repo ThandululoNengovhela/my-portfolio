@@ -65,7 +65,7 @@ const Footer = () => {
 
         <ul className="menu menu-horizontal bg-inherit rounded-box mt-6 pl-12">
           <li>
-            <a href="#profile" className="tooltip rounded-xl cursor-none transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" data-tip="Home">
+            <a title="Home" href="#profile" className="tooltip rounded-xl cursor-none transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" data-tip="Home">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -83,7 +83,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a className="tooltip rounded-xl cursor-none transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" data-tip="Details">
+            <a title="About" href="#body" className="tooltip rounded-xl cursor-none transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" data-tip="Details">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
